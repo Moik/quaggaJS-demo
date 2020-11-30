@@ -1,0 +1,18 @@
+<div id="interactive"
+     class="viewport"
+     [class.hidden]="errorMessage">
+    <video class="videoCamera"
+           autoplay="true"
+           preload="auto"
+           src=""
+           muted="true"
+           playsinline="true"></video>
+    <canvas class="drawingBuffer"></canvas>
+    <div *ngIf="result"
+         class="result">{{result}}</div>
+    <a routerLink="/">
+        <mat-icon>close</mat-icon>
+    </a>
+</div>
+
+<h2 *ngIf="errorMessage">{{errorMessage}}</h2>

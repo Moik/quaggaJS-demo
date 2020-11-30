@@ -1,0 +1,19 @@
+{
+  "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "html.format.enable": true,
+  "html.format.wrapAttributes": "force-aligned",
+  "prettier.configPath": ".prettierrc",
+  "prettier.disableLanguages": ["vue", "html"],
+  "prettier.requireConfig": true,
+  "typescriptHero.imports.organizeOnSave": true,
+  "typescriptHero.imports.removeTrailingIndex": false,
+  "typescriptHero.imports.grouping": ["Plains", "Modules", "Workspace", "Remaining"],
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
+}

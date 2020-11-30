@@ -1,0 +1,43 @@
+.viewport::ng-deep video {
+  width: 100%;
+  min-height: 240px;
+  max-height: 100vh;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.viewport::ng-deep .drawingBuffer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.viewport {
+  position: relative;
+  .result {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: rgba($color: #ff4081, $alpha: 0.9);
+    line-height: 3;
+  }
+}
+
+a {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #fff;
+  z-index: 100;
+}
+
+h2 {
+  padding: 1rem;
+}
